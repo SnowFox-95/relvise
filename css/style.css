@@ -133,11 +133,13 @@ body {
   }
 }
 
-/*----MAIN--------------------*/
+/*----page--------------------*/
 .page {
   flex: 1 1 auto;
 }
 .page__main-block {
+}
+.page__services {
 }
 /*----подвал--------------------*/
 .footer {
@@ -235,4 +237,27 @@ body {
   .main-block__image {
     opacity: 0.5;
   }
+}
+
+/*-----services-----*/
+
+.services {
+}
+.services__container {
+}
+._container {
+}
+.services__body {
+}
+.services__column {
+}
+.services__item {
+}
+.item-service {
+}
+.item-service__icon {
+}
+.item-service__title {
+}
+.item-service__text {
 }
