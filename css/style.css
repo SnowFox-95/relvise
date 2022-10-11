@@ -48,7 +48,9 @@ body {
 
 ._container {
   max-width: 1046px;
+  padding: 0px 15px;
   margin: 0 auto;
+  box-sizing: content-box;
 }
 
 /*----шапка--------------------*/
@@ -64,6 +66,11 @@ body {
   min-height: 104px;
   align-items: center;
 }
+@media (max-width: 479px) {
+  .header__container {
+    min-height: 70px;
+  }
+}
 .header__logo {
   font-weight: 700;
   font-size: 24px;
@@ -73,9 +80,27 @@ body {
 .header_menu {
   margin: 0px 0px 0px 133px;
 }
+
+@media (max-width: 992px) {
+  .header_menu {
+    margin: 0px 0px 0px 80px;
+  }
+}
+@media (max-width: 767px) {
+  .header_menu {
+    margin: 0px 0px 0px 40px;
+  }
+}
+@media (max-width: 479px) {
+  .header_menu {
+    margin: 0px 0px 0px 20px;
+  }
+}
 .menu {
+  padding: 5px 0;
 }
 .menu__list {
+  flex-wrap:wrap;
   display: flex;
 }
 .menu__item {
@@ -87,6 +112,10 @@ body {
   font-weight: 600;
   color: #737373;
   line-height: 171%;
-  text-align: center;
-  letter-spacing: 0.2px;
+}
+
+@media (max-width: 479px) {
+  .menu__link {
+    font-size: 18px;
+  }
 }
