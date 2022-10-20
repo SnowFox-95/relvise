@@ -144,6 +144,9 @@ html, body {
 .page__whoweare {
 }
 
+.page__clients {
+}
+
 /*----header-------*/
 .header-block {
     text-align: center;
@@ -478,6 +481,7 @@ html, body {
 
 /*----who we are------------*/
 .whoweare {
+    background: #fff;
     padding: 80px 0 130px 0;
 }
 
@@ -569,4 +573,31 @@ html, body {
 .item-whoweare__text {
     line-height: 1.42;
     color: #737373;
+}
+
+/*Clients*/
+
+.clients {
+    padding: 50px 0;
+    
+}
+
+.clients__container {
+}
+
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients__item {
+    padding: 8px 15px;
+    flex: 0 1 16.6667%;
+    text-align: center;
+    min-width: 140px;
+}
+.clients__item img{
+    max-width: 100%;
 }
