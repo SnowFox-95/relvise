@@ -161,6 +161,18 @@
     }
 }
 
+/*от 767рх*/
+@media (min-width: 767px) {
+    .contact__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contact__content {
+        padding: 0 20px 0 0;
+    }
+}
+
 /*до 767рх*/
 @media (max-width: 767px) {
     .header_menu {

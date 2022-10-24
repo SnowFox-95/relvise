@@ -757,12 +757,11 @@ body {
 }
 
 .contact__body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .contact__content {
+    padding: 0 0 20px 0;
 }
 
 .contact__title {
