@@ -86,6 +86,14 @@
     .item-getintouch_active {
         padding: 50px 15px;
     }
+
+    .footer__column {
+        flex: 0 1 25%;
+    }
+
+    .footer__column:last-child {
+        flex: 1 1 100%;
+    }
 }
 
 /*от 992px*/
@@ -168,8 +176,15 @@
         justify-content: space-between;
         align-items: center;
     }
+
     .contact__content {
         padding: 0 20px 0 0;
+    }
+
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -218,6 +233,21 @@
 
     .getintouch__header {
         margin: 0 0 30px 0;
+    }
+
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__copy{
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+}
+
+/*до 700px*/
+@media (max-width: 700px) {
+    .footer__column {
+        flex: 0 1 50%;
     }
 }
 
